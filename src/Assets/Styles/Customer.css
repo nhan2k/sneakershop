@@ -1,0 +1,106 @@
+.icon__actions-detail {
+  font-size: 1.5rem;
+  margin-right: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.icon__actions-detail:hover,
+.icon__actions > a,
+.icon__actions-delete:hover {
+  opacity: 0.6 !important;  
+}
+
+.icon__actions-detail:active,
+.icon__actions > a,
+.icon__actions-delete:active {
+  color: blue;
+}
+
+
+.icon__actions-delete {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.icon__actions-edit {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.icon__actions {
+  display: flex;
+  justify-items: center;
+}
+
+.icon__actions > a{
+  color: black
+}
+
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-header__text {
+  font-size: 1.5rem;
+}
+
+.page-header__button {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    Ubuntu, sans-serif;
+  font-size: 100%;
+  height: 50px;
+  line-height: 1.15;
+  outline: none;
+  overflow: hidden;
+  padding: 0 35px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all 0.2s, box-shadow 0.08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+}
+
+.page-header__button:active {
+    box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+      rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
+      rgba(50, 151, 211, 0.3) 0 0 0 4px;
+      opacity: 0.8;
+  }
+  
+  .page-header__button-icon{
+    margin-right: 8px;
+    font-size:1rem;
+    
+  }
+
+  .status{
+    background-color: green;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 12px;
+  }
+
+  .group-actions{
+    margin-top:16px
+  }

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+body {
+    /* background: #ecf0f3 */
+    /* background-image: url(https://scontent.fsgn5-14.fna.fbcdn.net/v/t1.15752-9/274717315_1675228279495226_8891871522323869356_n.png?_nc_cat=101&ccb=1-5&_nc_sid=ae9488&_nc_ohc=dQO4olq6f3QAX-3ZPyq&tn=5UbomtOjjva_mezi&_nc_ht=scontent.fsgn5-14.fna&oh=03_AVKD4Ql0-scpSwNXueEZfBB03DFufQdsyR_dUn_aVOfl-Q&oe=624BFF04); */
+}
+
+.wrapper {
+    max-width: 690px;
+    min-height: 500px;
+    margin: 80px auto;
+    padding: 40px 30px 30px 30px;
+    background-color: #ecf0f3;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px #cbced1, -5px -5px 20px #fff;
+}
+
+.logo {
+    width: 100px;
+    margin: auto
+}
+
+.logo img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px #5f5f5f, 0px 0px 0px 5px #ecf0f3, 8px 8px 15px #a7aaa7, -8px -8px 15px #fff
+}
+
+.wrapper .name {
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 1.3px;
+    padding-left: 10px;
+    color: rgb(7, 6, 6)
+}
+
+.wrapper .form-field input {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+    color: #666;
+    padding: 10px 15px 10px 10px
+}
+
+.wrapper .form-field {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 5px #cbced1, inset -10px -10px 10px #fff
+}
+
+.wrapper .form-field .fas {
+    color: #555
+}
+
+.wrapper .btn {
+    box-shadow: none;
+    width: 100%;
+    height: 40px;
+    background-color: #03d0f4;
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #b1b1b1, -3px -3px 3px #fff;
+    letter-spacing: 1.3px
+}
+.wrapper .btns {
+    box-shadow: none;
+    width: 100%;
+    height: 40px;
+    background-color: #050505;
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #b1b1b1, -3px -3px 3px #fff;
+    letter-spacing: 1.3px
+}
+
+.wrapper .btn:hover {
+    background-color: #039BE5
+}
+
+.wrapper a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #03A9F4
+}
+
+.wrapper a:hover {
+    color: #039BE5
+}
+
+@media(max-width: 380px) {
+    .wrapper {
+        margin: 30px 20px;
+        padding: 40px 15px 15px 15px
+    }
+}
+
+.icon-github {
+    margin-right: 8px;
+    font-size: 20px;
+    position: relative;
+    top: 4px;
+}.icon-facebook {
+    margin-right: 6px;
+    font-size: 20px;
+    position: relative;
+    top: 4px;
+}

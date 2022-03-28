@@ -1,0 +1,78 @@
+.topnav__search {
+  position: relative;
+  height: 50px;
+  background-color: var(--main-bg);
+  display: flex;
+  align-items: center;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+.topnav__search {
+  height: 100%;
+  width: 100%;
+  padding: 10px 60px 10px 20px;
+  font-size: 1rem;
+  border-radius: var(--border-radius);
+  color: var(--txt-color);
+  background-color: var(--main-bg);
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topnav__search > i {
+  font-size: 1, 5rem;
+  position: absolute;
+  right: 20px;
+}
+
+.topnav__right {
+  display: flex;
+  align-items: center;
+}
+
+.topnav__right-item ~ .topnav__right-item {
+  margin-left: 30px;
+}
+/* .cars{
+     float: right;
+      height: 100%;
+      width: 20%;
+      font-size: 1rem;
+      border-radius:var(--border-radius);
+      color: var(--txt-color);
+      background-color: var(--main-bg);
+      margin-bottom: 20px;
+      text-align: center;
+  } */
+.cars {
+  width: 100%;
+  position: relative;
+  height: 50px;
+  background-color: var(--main-bg);
+  display: flex;
+  align-items: center;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  text-align: center;
+}
+
+.btn-add {
+  height: 70%;
+  width: 90%;
+  background: #04aa6d;
+  color: white;
+  font-family: bold;
+  border-radius: 25px;
+}
+.inputsearch {
+  font-size: 20px;
+}
+.btnseach {
+}
+.icon-facebook:hover {
+  background-color: #04aa6d;
+}

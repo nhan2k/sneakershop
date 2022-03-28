@@ -1,0 +1,26 @@
+.add {
+  color: rgb(236, 226, 75);
+  font-size: 30px;
+  /* float: right; */
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  background-color: #224ee0; /* Green */
+  border: 1px;
+  color: white;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: Bold;
+}
+.iconadd {
+  margin-left: 200px;
+  position: relative;
+  top: 100px;
+}

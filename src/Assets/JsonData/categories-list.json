@@ -1,0 +1,443 @@
+[
+    {
+     "icon": "Tyrolean Hound",
+     "parent": "snake",
+     "children": "HYm;\\#)cE^",
+     "type": "cat",
+     "published": true,
+     "ID": "199f4d75-4b84-4cd8-995b-8fc74115a0eb",
+     "id": "1"
+    },
+    {
+     "icon": "Scottish Terrier",
+     "parent": "crocodilia",
+     "children": "?y'.P9/lfy",
+     "type": "cow",
+     "published": true,
+     "ID": "c96e5fad-49aa-4296-a475-d5eef89dc147",
+     "id": "2"
+    },
+    {
+     "icon": "Russian Spaniel",
+     "parent": "lion",
+     "children": "Nf$A9S#*^m",
+     "type": "crocodilia",
+     "published": true,
+     "ID": "3061e1e0-940d-4681-932b-4d3eba24be32",
+     "id": "3"
+    },
+    {
+     "icon": "Šarplaninac",
+     "parent": "snake",
+     "children": "B5Dv\"+y/<t",
+     "type": "horse",
+     "published": false,
+     "ID": "a813d286-c106-4065-bf15-08c4a3849686",
+     "id": "4"
+    },
+    {
+     "icon": "Mackenzie River Husky",
+     "parent": "cat",
+     "children": "vo,qFnA/7?",
+     "type": "cow",
+     "published": true,
+     "ID": "e38875fa-8c20-4da7-a4c5-92af03241410",
+     "id": "5"
+    },
+    {
+     "icon": "Skye Terrier",
+     "parent": "cat",
+     "children": "iPS0]Qd/.K",
+     "type": "insect",
+     "published": true,
+     "ID": "48e0f268-fb2c-4b7c-910b-429ddea014a5",
+     "id": "6"
+    },
+    {
+     "icon": "Australian Kelpie",
+     "parent": "cat",
+     "children": "\\>KjWkzYv&",
+     "type": "lion",
+     "published": true,
+     "ID": "510d7b92-86b7-4c6e-abc6-8fa91187c521",
+     "id": "7"
+    },
+    {
+     "icon": "Bedlington Terrier",
+     "parent": "insect",
+     "children": "O1'/gL\"LC_",
+     "type": "horse",
+     "published": true,
+     "ID": "d8f588d2-3788-4edb-a6df-ac1ea66dfde8",
+     "id": "8"
+    },
+    {
+     "icon": "Poodle",
+     "parent": "rabbit",
+     "children": ")/<6wR=r5t",
+     "type": "dog",
+     "published": false,
+     "ID": "e9bce7c4-7f11-4286-9cae-a16f3c1dda15",
+     "id": "9"
+    },
+    {
+     "icon": "Garafian Shepherd",
+     "parent": "lion",
+     "children": "$>cTP@GaR!",
+     "type": "bear",
+     "published": true,
+     "ID": "83ea39b4-6d2a-4e53-bf88-39f937c1f387",
+     "id": "10"
+    },
+    {
+     "icon": "English Cocker Spaniel",
+     "parent": "horse",
+     "children": "`;>%jV>2.[",
+     "type": "horse",
+     "published": true,
+     "ID": "d5f5168d-850b-4ae2-a2ae-a94f3032552c",
+     "id": "11"
+    },
+    {
+     "icon": "Dutch Shepherd",
+     "parent": "bear",
+     "children": "YXR|lImQ1&",
+     "type": "lion",
+     "published": true,
+     "ID": "1051baa4-3973-4dd0-8629-28a50ff08b37",
+     "id": "12"
+    },
+    {
+     "icon": "Saint Bernard",
+     "parent": "dog",
+     "children": "Zik#-Vr)LS",
+     "type": "insect",
+     "published": true,
+     "ID": "d7dad66d-42eb-4dc0-8802-dfb096c65074",
+     "id": "13"
+    },
+    {
+     "icon": "Pachon Navarro",
+     "parent": "horse",
+     "children": "i/C@-8=d@;",
+     "type": "bear",
+     "published": true,
+     "ID": "10ca3c38-3f2a-47a9-b6fb-c7e664c94e8b",
+     "id": "14"
+    },
+    {
+     "icon": "Pug",
+     "parent": "bird",
+     "children": "S0E{jbG_/.",
+     "type": "insect",
+     "published": false,
+     "ID": "df7329f1-c8f1-4188-b4d2-cdf43ff60822",
+     "id": "15"
+    },
+    {
+     "icon": "Ratonero Murciano de Huerta",
+     "parent": "dog",
+     "children": "|X_P;e['@p",
+     "type": "cat",
+     "published": false,
+     "ID": "356092c5-e887-438b-9d23-5e51a44eb5ee",
+     "id": "16"
+    },
+    {
+     "icon": "Dandie Dinmont Terrier",
+     "parent": "lion",
+     "children": "\"W.pMq<}.D",
+     "type": "fish",
+     "published": false,
+     "ID": "184fba8a-4625-43a4-94e6-35e3ed87ae2a",
+     "id": "17"
+    },
+    {
+     "icon": "Cimarrón Uruguayo",
+     "parent": "fish",
+     "children": "!W&KR^yiPm",
+     "type": "cat",
+     "published": false,
+     "ID": "bea5a423-3038-415a-8f35-e0c191683b5f",
+     "id": "18"
+    },
+    {
+     "icon": "American Pit Bull Terrier",
+     "parent": "bird",
+     "children": "D`3gGKJ5!{",
+     "type": "horse",
+     "published": false,
+     "ID": "dfddd359-2ceb-474e-a6f2-4b6ecf41b8f5",
+     "id": "19"
+    },
+    {
+     "icon": "Banjara Hound",
+     "parent": "cetacean",
+     "children": "\"<@3JORbcz",
+     "type": "insect",
+     "published": false,
+     "ID": "aa530d42-a55a-48eb-9180-7f3681e7b832",
+     "id": "20"
+    },
+    {
+     "icon": "Shikoku",
+     "parent": "rabbit",
+     "children": "j(4]LH]W;u",
+     "type": "fish",
+     "published": true,
+     "ID": "92d15ae5-8411-4ab6-94d5-cbe637a88695",
+     "id": "21"
+    },
+    {
+     "icon": "Jack Russell Terrier",
+     "parent": "snake",
+     "children": "m88239q-Np",
+     "type": "crocodilia",
+     "published": true,
+     "ID": "88c2a266-fdea-48a6-aef6-0f455e4e0a21",
+     "id": "22"
+    },
+    {
+     "icon": "Patagonian Sheepdog",
+     "parent": "lion",
+     "children": "q(R]Dl\\PLM",
+     "type": "cat",
+     "published": true,
+     "ID": "b4f364f5-a9fc-483a-842f-9f52fced770a",
+     "id": "23"
+    },
+    {
+     "icon": "Finnish Spitz",
+     "parent": "cat",
+     "children": "<\";tUxwI2D",
+     "type": "dog",
+     "published": false,
+     "ID": "9dde6f5e-e6e4-4d91-9bea-483bb075def8",
+     "id": "24"
+    },
+    {
+     "icon": "Bucovina Shepherd Dog",
+     "parent": "fish",
+     "children": "v(L+>(2|X$",
+     "type": "bird",
+     "published": false,
+     "ID": "ce09613c-2864-49f3-bc68-210f87280ff5",
+     "id": "25"
+    },
+    {
+     "icon": "Segugio dell'Appennino",
+     "parent": "cow",
+     "children": "dq7-OcyW3d",
+     "type": "dog",
+     "published": true,
+     "ID": "6f348dd6-41d7-4981-92fc-86e593506cfc",
+     "id": "26"
+    },
+    {
+     "icon": "Stabyhoun",
+     "parent": "cat",
+     "children": "#U%_$DlGA2",
+     "type": "fish",
+     "published": false,
+     "ID": "15ef23f3-1adb-4dac-be92-a41c6a3a30c4",
+     "id": "27"
+    },
+    {
+     "icon": "Bruno Jura Hound",
+     "parent": "cow",
+     "children": "v]*5b@_@W3",
+     "type": "lion",
+     "published": true,
+     "ID": "8a721636-fce0-4849-831e-6e4b37fac113",
+     "id": "28"
+    },
+    {
+     "icon": "Garafian Shepherd",
+     "parent": "fish",
+     "children": "VF+B[8I,8<",
+     "type": "snake",
+     "published": true,
+     "ID": "cd643f83-fe1b-45e4-bb1f-cfa15bcbfa7f",
+     "id": "29"
+    },
+    {
+     "icon": "Saarloos Wolfdog",
+     "parent": "cow",
+     "children": "{`QpI:Rs8v",
+     "type": "horse",
+     "published": true,
+     "ID": "268eee7a-00d7-41aa-9491-ed3b3fa1423a",
+     "id": "30"
+    },
+    {
+     "icon": "American English Coonhound",
+     "parent": "snake",
+     "children": "=s?_:6eccE",
+     "type": "fish",
+     "published": true,
+     "ID": "169dcf88-130d-429d-aa27-5a045712ed31",
+     "id": "31"
+    },
+    {
+     "icon": "Basset Bleu de Gascogne",
+     "parent": "insect",
+     "children": "JMuAq7Imt6",
+     "type": "insect",
+     "published": true,
+     "ID": "95adb1f4-0a93-4d00-8aa1-23723ec6fd37",
+     "id": "32"
+    },
+    {
+     "icon": "Irish Red and White Setter",
+     "parent": "horse",
+     "children": "$mjM,}^\">s",
+     "type": "snake",
+     "published": false,
+     "ID": "3600c211-05e2-4438-a540-ada1bbf8aaed",
+     "id": "33"
+    },
+    {
+     "icon": "Stephens Stock",
+     "parent": "fish",
+     "children": "0P`*aqMUH:",
+     "type": "lion",
+     "published": true,
+     "ID": "f31b2640-6096-4f69-9375-976cde7d146b",
+     "id": "34"
+    },
+    {
+     "icon": "Gull Dong",
+     "parent": "cat",
+     "children": "p1\\4r:gj+@",
+     "type": "horse",
+     "published": false,
+     "ID": "1cd5cf85-6382-4554-8ffd-c8888986b7c8",
+     "id": "35"
+    },
+    {
+     "icon": "Border Terrier",
+     "parent": "lion",
+     "children": "$N{bDPz8N*",
+     "type": "insect",
+     "published": true,
+     "ID": "23f61233-fd4f-41e2-8d7a-8d5f073e3c40",
+     "id": "36"
+    },
+    {
+     "icon": "Mucuchies",
+     "parent": "horse",
+     "children": "Gry-O+;C*R",
+     "type": "horse",
+     "published": false,
+     "ID": "43cceeae-4236-4c5c-a7af-e88376bc9bba",
+     "id": "37"
+    },
+    {
+     "icon": "Romanian Raven Shepherd Dog",
+     "parent": "cat",
+     "children": "aqhoIM^V{B",
+     "type": "cetacean",
+     "published": false,
+     "ID": "e6e3eaf0-d1d7-466f-8ba1-fbe0a9d15083",
+     "id": "38"
+    },
+    {
+     "icon": "Kuvasz",
+     "parent": "cat",
+     "children": "t)-eY@?zQh",
+     "type": "snake",
+     "published": false,
+     "ID": "7ec22784-110a-466f-8b59-6bcd5acd28bb",
+     "id": "39"
+    },
+    {
+     "icon": "Alaskan Klee Kai",
+     "parent": "bird",
+     "children": "!F[O5\"Czj+",
+     "type": "horse",
+     "published": false,
+     "ID": "2e3083d5-5b6f-42b0-ad0a-cac91fcbc156",
+     "id": "40"
+    },
+    {
+     "icon": "Lagotto Romagnolo",
+     "parent": "crocodilia",
+     "children": "SI>rCr[/KE",
+     "type": "horse",
+     "published": false,
+     "ID": "a69d0d76-b5cb-4bf5-8c33-1c7da0b9d583",
+     "id": "41"
+    },
+    {
+     "icon": "Villano de Las Encartaciones",
+     "parent": "fish",
+     "children": "ng;s=5&yv5",
+     "type": "rabbit",
+     "published": true,
+     "ID": "16e17bf1-9e9b-4f12-a797-6ff002e143dd",
+     "id": "42"
+    },
+    {
+     "icon": "Blue Lacy",
+     "parent": "crocodilia",
+     "children": "%CIdf!]*M!",
+     "type": "cetacean",
+     "published": true,
+     "ID": "8c5cb972-2547-4951-ab46-dbd63e31dbc0",
+     "id": "43"
+    },
+    {
+     "icon": "German Hound",
+     "parent": "fish",
+     "children": "8aD?:/2}X;",
+     "type": "bear",
+     "published": false,
+     "ID": "602114f6-0c7e-403f-8ab4-a66230c4d17a",
+     "id": "44"
+    },
+    {
+     "icon": "Pont-Audemer Spaniel",
+     "parent": "cow",
+     "children": "z=yQvsOmkA",
+     "type": "cetacean",
+     "published": false,
+     "ID": "685018f0-114f-494c-bc9e-d56a4e95076e",
+     "id": "45"
+    },
+    {
+     "icon": "German Longhaired Pointer",
+     "parent": "crocodilia",
+     "children": "v)kjcOX;L\\",
+     "type": "insect",
+     "published": true,
+     "ID": "c9c9d220-26cc-4f2b-8679-bf4ca0d29009",
+     "id": "46"
+    },
+    {
+     "icon": "Dutch Shepherd",
+     "parent": "bear",
+     "children": "3%7iZ<3YSq",
+     "type": "fish",
+     "published": true,
+     "ID": "33b3d8f0-66c5-4c52-a0cc-5caeb83b39aa",
+     "id": "47"
+    },
+    {
+     "icon": "Treeing Walker Coonhound",
+     "parent": "bird",
+     "children": "Y$Z#]8`6Z:",
+     "type": "cat",
+     "published": false,
+     "ID": "e02a1f48-20f4-4676-9e60-e48a7913f916",
+     "id": "48"
+    },
+    {
+     "icon": "Gordon Setter",
+     "parent": "bear",
+     "children": "Xk=Cz=n|i!",
+     "type": "cetacean",
+     "published": true,
+     "ID": "91f34aa3-e341-4224-9810-69893fd9bdbc",
+     "id": "49"
+    }
+   ]

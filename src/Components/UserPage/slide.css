@@ -1,0 +1,9 @@
+.each-slide > div {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-size:cover;
+    height: 500px;
+  }
+  
+  
