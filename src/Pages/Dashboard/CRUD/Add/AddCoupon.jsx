@@ -61,7 +61,7 @@ export default function AddCoupon() {
     })
       .then((res) => {
         alert('success');
-        history.push("/discount");
+        history.push("/dashboard/discount");
       })
       .catch((error) => {
         console.log(error);

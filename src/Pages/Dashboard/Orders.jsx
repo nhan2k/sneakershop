@@ -3,6 +3,9 @@ import React, { useState, useEffect } from "react";
 import { Link, useHistory } from "react-router-dom";
 import axios from "axios";
 
+//Token
+import { getToken } from "../../Util/Common";
+
 import {
   DropdownButton,
   Dropdown,
@@ -29,11 +32,14 @@ import {
 
 export default function Orders() {
   //Get API
+  const accessToken = getToken();
   const [getData, setGetData] = useState([]);
 
   useEffect(() => {
     axios
-      .get("https://sneakershopfiveteam.herokuapp.com/order/")
+      .get("https://sneakershopfiveteam.herokuapp.com/order/", {
+        headers: { token: `Bearer ${accessToken}` },
+      })
       .then((res) => {
         setGetData(res.data);
       })
