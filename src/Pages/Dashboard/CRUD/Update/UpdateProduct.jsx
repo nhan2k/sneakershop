@@ -39,11 +39,15 @@ export default function UpdateProduct() {
   //API
   const [_id, setID] = useState(null);
   const [sku, setSku] = useState("");
+  const [image, setImage] = useState("");
   const [name, setName] = useState("");
   const [category, setCategory] = useState("");
   const [price, setPrice] = useState("");
+  const [des, setDes] = useState("");
   const [stock, setStock] = useState("");
+  const [country, setCountry] = useState("");
   const [status, setStatus] = useState("");
+
 
   const history = useHistory();
 
@@ -57,10 +61,13 @@ export default function UpdateProduct() {
         `https://sneakershopfiveteam.herokuapp.com/product/${Id}`,
         {
           sku,
+          image,
           name,
           category,
           price,
+          des,
           stock,
+          country,
           status,
         },
         {
@@ -69,7 +76,7 @@ export default function UpdateProduct() {
       )
       .then((res) => {
         alert("success");
-        history.push("/product");
+        history.push("/dashboard/product");
       })
       .catch((err) => {
         console.log(_id);
@@ -80,10 +87,13 @@ export default function UpdateProduct() {
   useEffect(() => {
     setID(sessionStorage.getItem("_id"));
     setSku(sessionStorage.getItem("sku"));
+    setImage(sessionStorage.getItem("image"));
     setName(sessionStorage.getItem("name"));
     setCategory(sessionStorage.getItem("category"));
     setPrice(sessionStorage.getItem("price"));
+    setDes(sessionStorage.getItem("des"));
     setStock(sessionStorage.getItem("stock"));
+    setCountry(sessionStorage.getItem("country"));
     setStatus(sessionStorage.getItem("status"));
   }, []);
 
@@ -102,6 +112,18 @@ export default function UpdateProduct() {
           />
         </FloatingLabel>
 
+        {/* <Form.Group controlId="formFileMultiple" className="mb-3">
+          <Form.Label>Image Product</Form.Label>
+          <Form.Control
+            type="file"
+            multiple
+            className="cars"
+            placeholder="image"
+            value={image}
+            onChange={(e) => setImage(e.target.files[0])}
+          />
+        </Form.Group> */}
+
         <FloatingLabel controlId="floatingInput" label="Product Name">
           <Form.Control
             className="cars"
@@ -112,11 +134,7 @@ export default function UpdateProduct() {
           />
         </FloatingLabel>
 
-        <FloatingLabel
-          controlId="floatingInput"
-          label="Category"
-          className=""
-        >
+        <FloatingLabel controlId="floatingInput" label="Category" className="">
           <Form.Control
             className="cars"
             type="text"
@@ -126,17 +144,25 @@ export default function UpdateProduct() {
           />
         </FloatingLabel>
 
-        <FloatingLabel
-          controlId="floatingInput"
-          label="Price"
-          className=""
-        >
+        <FloatingLabel controlId="floatingInput" label="Price" className="">
           <Form.Control
             className="cars"
             type="text"
             placeholder="price"
             value={price}
             onChange={(e) => setPrice(e.target.value)}
+          />
+        </FloatingLabel>
+
+        <FloatingLabel controlId="floatingTextarea2" label="Description Product">
+          <Form.Control
+            className="cars"
+            as="textarea"
+            placeholder="Leave a comment here"
+            style={{ height: "100px" }}
+            type="text"
+            value={des}
+            onChange={(e) => setDes(e.target.value)}
           />
         </FloatingLabel>
 
@@ -151,6 +177,20 @@ export default function UpdateProduct() {
             placeholder="stock"
             value={stock}
             onChange={(e) => setStock(e.target.value)}
+          />
+        </FloatingLabel>
+
+        <FloatingLabel
+          controlId="floatingInput"
+          label="Country"
+          className=""
+        >
+          <Form.Control
+            className="cars"
+            type="text"
+            placeholder="country"
+            value={country}
+            onChange={(e) => setCountry(e.target.value)}
           />
         </FloatingLabel>
 

@@ -57,7 +57,7 @@ export default function AddCate() {
       )
       .then((res) => {
         alert("success");
-        history.push("/categories");
+        history.push("/dashboard/categories");
       })
       .catch((error) => {
         console.log(error);

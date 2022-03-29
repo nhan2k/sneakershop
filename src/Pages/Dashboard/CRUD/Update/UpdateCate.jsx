@@ -61,7 +61,7 @@ export default function UpdateCate() {
       )
       .then((res) => {
         alert("success");
-        history.push("/categories");
+        history.push("/dashboard/categories");
         console.log(type);
       })
       .catch((err) => {

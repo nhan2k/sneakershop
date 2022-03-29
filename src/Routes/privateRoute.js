@@ -11,7 +11,6 @@ import Product from "../Pages/Dashboard/Product";
 import Orders from "../Pages/Dashboard/Orders";
 import Categories from "../Pages/Dashboard/Categories";
 import Setting from "../Pages/Dashboard/Setting";
-import ProductDetail from "../Pages/Dashboard/ProductDetail";
 
 // import Login from "../Pages/Dashboard/Login";
 import Register from "../Pages/Dashboard/Register";
@@ -41,7 +40,6 @@ const privateRoute = () => {
       <Route path="/dashboard/home" component={Dashboard} />
       <Route path="/dashboard/customers" component={Customers} />
       <Route path="/dashboard/detailcustomer" component={DetailCustomer} />
-      <Route path="/dashboard/detailproduct" component={ProductDetail} />
       <Route path="/dashboard/orders" component={Orders} />
       <Route path="/dashboard/discount" component={Discount} />
       <Route path="/dashboard/product" component={Product} />

@@ -40,13 +40,16 @@ export default function Product() {
 
   //
   const setData = (data) => {
-    let { _id, sku, name, category, price, stock, status } = data;
+    let { _id, sku, image, des, name, category, price, stock, country, status } = data;
     sessionStorage.setItem("id", data._id);
     sessionStorage.setItem("sku", data.sku);
+    sessionStorage.setFile("image", data.image);
     sessionStorage.setItem("name", data.name);
     sessionStorage.setItem("category", data.category);
     sessionStorage.setItem("price", data.price);
+    sessionStorage.setItem("des", data.description);
     sessionStorage.setItem("stock", data.stock);
+    sessionStorage.setItem("country", data.country);
     sessionStorage.setItem("status", data.status);
     console.log(data._id);
   };
@@ -63,8 +66,6 @@ export default function Product() {
         setApiData(getData.data);
       });
   };
-
-
 
   //Delete API
   const onDelete = (_id) => {
@@ -141,12 +142,14 @@ export default function Product() {
               <thead>
                 <tr>
                   <th>Sku</th>
+                  <th>Image</th>
                   <th>Product Name</th>
                   <th>Category</th>
                   <th>Price</th>
+                  <th>Description</th>
                   <th>Stock</th>
+                  <th>Country</th>
                   <th>Status</th>
-                  <th>Detail</th>
                   <th>Action</th>
                 </tr>
               </thead>
@@ -156,19 +159,16 @@ export default function Product() {
                       return (
                         <tr>
                           <td>{data.sku}</td>
+                          <td>
+                            <img src={data.image} style={{ width: "40%" }} />
+                          </td>
                           <td>{data.name}</td>
                           <td>{data.category}</td>
                           <td>{data.price}</td>
+                          <td>{data.description}</td>
                           <td>{data.stock}</td>
+                          <td>{data.country}</td>
                           <td>{data.status}</td>
-                          <td>
-                            <Link to="/dashboard/productdetail/">
-                              <i
-                                onClick={() => setID(data.id)}
-                                className="bx bx-show icon__actions-detail"
-                              ></i>
-                            </Link>
-                          </td>
                           <td>
                             <Link to="/dashboard/updateproduct">
                               <i
@@ -189,19 +189,16 @@ export default function Product() {
                       return (
                         <tr>
                           <td>{data.sku}</td>
+                          <td>
+                            <img src={data.image} style={{ width: "40%" }} />
+                          </td>
                           <td>{data.name}</td>
                           <td>{data.category}</td>
                           <td>{data.price}</td>
+                          <td>{data.description}</td>
                           <td>{data.stock}</td>
+                          <td>{data.country}</td>
                           <td>{data.status}</td>
-                          <td>
-                            <Link to="/dashboard/productdetail">
-                              <i
-                                onClick={() => setID(data.id)}
-                                className="bx bx-show icon__actions-detail"
-                              ></i>
-                            </Link>
-                          </td>
                           <td>
                             <Link to="/dashboard/updateproduct">
                               <i

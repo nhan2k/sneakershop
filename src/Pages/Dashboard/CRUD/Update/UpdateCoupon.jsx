@@ -68,7 +68,7 @@ export default function UpdateCoupon() {
       )
       .then((res) => {
         alert("success");
-        history.push("/discount");
+        history.push("/dashboard/discount");
         console.log(index);
         
       })
@@ -96,6 +96,7 @@ export default function UpdateCoupon() {
           <Form.Control
             className="cars"
             type="text"
+            placeholder="index"
             value={index}
             onChange={(e) => setIndex(e.target.value)}
           />
