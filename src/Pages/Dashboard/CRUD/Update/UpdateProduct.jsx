@@ -87,7 +87,7 @@ export default function UpdateProduct() {
   useEffect(() => {
     setID(sessionStorage.getItem("_id"));
     setSku(sessionStorage.getItem("sku"));
-    setImage(sessionStorage.getItem("image"));
+    // setImage(sessionStorage.getItem("image"));
     setName(sessionStorage.getItem("name"));
     setCategory(sessionStorage.getItem("category"));
     setPrice(sessionStorage.getItem("price"));

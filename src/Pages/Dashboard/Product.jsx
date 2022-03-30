@@ -43,7 +43,7 @@ export default function Product() {
     let { _id, sku, image, des, name, category, price, stock, country, status } = data;
     sessionStorage.setItem("id", data._id);
     sessionStorage.setItem("sku", data.sku);
-    sessionStorage.setFile("image", data.image);
+    // sessionStorage.setFile("image", data.image);
     sessionStorage.setItem("name", data.name);
     sessionStorage.setItem("category", data.category);
     sessionStorage.setItem("price", data.price);
